@@ -51,10 +51,10 @@ li a:hover {
 .mainQuote {
     color: white;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 20;
+    font-size: 17;
     text-align: center;
     margin: auto;
-    width: 70%;
+    width: 80%;
 }
 
 .body {
