@@ -30,18 +30,18 @@ const navigateTo = url => {
 
 const router = async () => {
   const routes = [
-    { path: '/', view: Home },
-    { path: '/general', view: General },
-    { path: '/celebrities', view: Celebrities },
-    { path: '/jobs', view: Jobs },
-    { path: '/compatibility', view: Compatibility },
-    { path: '/game', view: Game }
-    // { path: u('/'), view: Home },
-    // { path: u('/general'), view: General },
-    // { path: u('/celebrities'), view: Celebrities },
-    // { path: u('/jobs'), view: Jobs },
-    // { path: u('/compatibility'), view: Compatibility },
-    // { path: u('/game'), view: Game }
+    // { path: '/', view: Home },
+    // { path: '/general', view: General },
+    // { path: '/celebrities', view: Celebrities },
+    // { path: '/jobs', view: Jobs },
+    // { path: '/compatibility', view: Compatibility },
+    // { path: '/game', view: Game }
+    { path: u('/'), view: Home },
+    { path: u('/general'), view: General },
+    { path: u('/celebrities'), view: Celebrities },
+    { path: u('/jobs'), view: Jobs },
+    { path: u('/compatibility'), view: Compatibility },
+    { path: u('/game'), view: Game }
   ];
 
   console.log(location.pathname)
