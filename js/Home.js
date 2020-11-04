@@ -13,7 +13,7 @@ export default class extends AbstractView {
 <div id="mainContainer" style="margin-left: 25px; margin-right: 25px;">
     <div id="headerSigns" style="margin-left: 50px; margin-right: 50px;">
         <div class="zoomable">
-            <img src="../assets/sign-aries.jpg" width=75px height=75px></img>
+            <img src="assets/sign-aries.jpg" width=75px height=75px></img>
         </div>
 
         <div class="zoomable">
