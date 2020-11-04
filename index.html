@@ -1,88 +1,12 @@
 <html>
     <head>
-        <title> ზოდიაქო </title>
+        <title> Horoscope </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="allStyles.css">
     </head>
-    <style>
-        .zoomable {
-            margin-top: 20px;
-            margin-bottom: 20px;
-            margin-right: 15px;
-            transition: transform .2s; /* Animation */
-            display: inline-block;
-            width: 90px;
-            height: 90px;
-        }
-
-        .zoomable:hover {
-            transform: scale(1.5);
-        }
-    </style>
 
     <body>
-        <div id="mainContainer" style="margin-left: 25px; margin-right: 25px;">
-            <div id="headerSigns" style="margin-left: 50px; margin-right: 50px;">
-                <div class="zoomable">
-                    <img src="assets/sign-aries.jpg" width=75px height=75px></img>
-                </div>
-
-                <div class="zoomable">
-                    <img src="assets/sign-taurus.jpg" width=75px height=75px></img>
-                </div>
-
-                <div class="zoomable">
-                    <img src="assets/sign-gemini.jpg " width=75px height=75px></img>
-                </div> 
-
-                <div class="zoomable">
-                    <img src="assets/sign-cancer.jpg" width=75px height=75px></img>
-                </div>
-
-                <div class="zoomable">
-                    <img src="assets/sign-leo.jpg" width=75px height=75px></img>
-                </div>
-
-                <div class="zoomable">
-                    <img src="assets/sign-virgo.jpg" width=75px height=75px></img>
-                </div>
-
-                <div class="zoomable">
-                    <img src="assets/sign-libra.jpg" width=75px height=75px></img>
-                </div>
-
-                <div class="zoomable">
-                    <img src="assets/sign-scorpio.jpg" width=75px height=75px></img>
-                </div>
-
-                <div class="zoomable">
-                    <img src="assets/sign-sagittarius.jpg" width=75px height=75px></img>
-                </div>
-
-                <div class="zoomable">
-                    <img src="assets/sign-capricorn.jpg" width=75px height=75px></img>
-                </div>
-
-                <div class="zoomable">
-                    <img src="assets/sign-aquarius.jpg" width=75px height=75px></img>
-                </div>
-
-                <div class="zoomable">
-                    <img src="assets/sign-pisces.jpg" width=75px height=75px></img>
-                </div>
-
-            </div>
-
-            <div id="quote">
-                <h2 style="margin-left: 440px; margin-top: 20px; margin-bottom: 60px;">Astrology is like gravity. You don't have to believe in it for it to be working in your life.</h2>
-            </div>
-
-            
-            <nav id="navigationBar" style="margin: 0px; background-color: rgb(218, 160, 241); height: 40px">
-                <a href="" style="margin-left: 100px;">ზოგადი</a>
-                <a href="" style="margin-left: 30px; ">ყოველდღიური</a>
-                <a href="" style="margin-left: 30px;">ცნობილი ადამიანები</a>
-                <a href="" style="margin-left: 30px;">პროფესიები</a>
-                <a href="" style=" margin-left: 30px;">Guess Who ?</a>
-            </nav>
-        </div>
+        <div id="app"></div>
+        <script type="module" src="./js/index.js"></script>
     </body>
 </html>

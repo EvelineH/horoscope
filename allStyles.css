@@ -1,0 +1,42 @@
+.zoomable {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 15px;
+    transition: transform .2s;
+    display: inline-block;
+    width: 90px;
+    height: 90px;
+}
+
+.zoomable:hover {
+    transform: scale(1.5);
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #dca9f0;
+  }
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: rgb(217, 142, 247);
+}
+
+#navigationBar {
+    margin-left: 40;
+    margin-right: 40;
+}
