@@ -1,7 +1,4 @@
 .zoomable {
-    /* margin-top: 20px;
-    margin-bottom: 20px;
-    margin-right: 20px; */
     padding: 10px;
     transition: transform .2s;
     display: inline-block;
@@ -56,8 +53,10 @@ li a:hover {
     font-family: 'Times New Roman', Times, serif;
     font-size: 20;
     text-align: center;
+    margin: auto;
+    width: 70%;
 }
 
 .body {
-    background-color:rgb(255,219,255, 03);
+    background-color:rgba(255, 219, 255, 0.856);
 }

@@ -12,51 +12,51 @@ export default class extends AbstractView {
 <div id="mainContainer">
     <div id="headerSigns">
         <div class="zoomable" id="aries">
-            <img src="/horoscope/assets/sign-aries.jpg"></img>
+            <img src="/horoscope/assets/sign-aries.jpg" width=75px height=75px></img>
         </div>
 
         <div class="zoomable" id="taurus">
-            <img src="/horoscope/assets/sign-taurus.jpg"></img>
+            <img src="/horoscope/assets/sign-taurus.jpg" width=75px height=75px></img>
         </div>
 
         <div class="zoomable" id="gemini">
-            <img src="/horoscope/assets/sign-gemini.jpg"></img>
+            <img src="/horoscope/assets/sign-gemini.jpg" width=75px height=75px></img>
         </div> 
 
         <div class="zoomable" id="cancer">
-            <img src="/horoscope/assets/sign-cancer.jpg"></img>
+            <img src="/horoscope/assets/sign-cancer.jpg" width=75px height=75px></img>
         </div>
 
         <div class="zoomable" id="leo">
-            <img src="/horoscope/assets/sign-leo.jpg"></img>
+            <img src="/horoscope/assets/sign-leo.jpg" width=75px height=75px></img>
         </div>
 
         <div class="zoomable" id="virgo">
-            <img src="/horoscope/assets/sign-virgo.jpg"></img>
+            <img src="/horoscope/assets/sign-virgo.jpg" width=75px height=75px></img>
         </div>
 
         <div class="zoomable" id="libra">
-            <img src="/horoscope/assets/sign-libra.jpg"></img>
+            <img src="/horoscope/assets/sign-libra.jpg" width=75px height=75px></img>
         </div>
 
         <div class="zoomable" id="scorpio">
-            <img src="/horoscope/assets/sign-scorpio.jpg"></img>
+            <img src="/horoscope/assets/sign-scorpio.jpg" width=75px height=75px></img>
         </div>
 
         <div class="zoomable" id="sagittarius">
-            <img src="/horoscope/assets/sign-sagittarius.jpg"></img>
+            <img src="/horoscope/assets/sign-sagittarius.jpg" width=75px height=75px></img>
         </div>
 
         <div class="zoomable" id="capricorn">
-            <img src="/horoscope/assets/sign-capricorn.jpg"></img>
+            <img src="/horoscope/assets/sign-capricorn.jpg" width=75px height=75px></img>
         </div>
 
         <div class="zoomable" id="aquarius">
-            <img src="/horoscope/assets/sign-aquarius.jpg"></img>
+            <img src="/horoscope/assets/sign-aquarius.jpg" width=75px height=75px></img>
         </div>
 
         <div class="zoomable" id="pisces">
-            <img src="/horoscope/assets/sign-pisces.jpg"></img>
+            <img src="/horoscope/assets/sign-pisces.jpg" width=75px height=75px></img>
         </div>
 
     </div>
