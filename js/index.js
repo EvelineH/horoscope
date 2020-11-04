@@ -6,9 +6,6 @@ import Compatibility from './Compatibility.js';
 import Game from './Game.js';
 import { u } from './lib.js';
 
-const pathToRegex = path =>
-  new RegExp('^' + path.replace(/\//g, '\\/').replace(/:\w+/g, '(.+)') + '$');
-
 const getParams = match => {
   const values = match.result.slice(1);
   const keys = Array.from(match.route.path.matchAll(/:(\w+)/g)).map(result => result[1]);
@@ -38,15 +35,13 @@ const router = async () => {
     { path: u('/game'), view: Game }
   ];
 
-  console.log(location.pathname)
   const potentialMatches = routes.map(route => {
     return {
       route: route,
-      result: location.pathname.match(pathToRegex(route.path))
+      result: location.pathname.match(route.path)
     };
   });
 
-  console.log(potentialMatches)
   let match = potentialMatches.find(potentialMatch => potentialMatch.result !== null);
   
   if (!match) {
@@ -71,6 +66,5 @@ document.addEventListener('DOMContentLoaded', () => {
       navigateTo(e.target.href);
     }
   });
-  console.log("loaded")
   router();
 });
