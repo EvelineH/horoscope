@@ -62,7 +62,7 @@ export default class extends AbstractView {
 
     </div>
 
-    <div id="quote">
+    <div id="quote" class="mainQuote">
         <h2 style="margin-left: 440px; margin-top: 20px; margin-bottom: 60px;">Astrology is like gravity. You don't have to believe in it for it to be working in your life.</h2>
     </div>
 

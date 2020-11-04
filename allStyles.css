@@ -40,3 +40,9 @@ li a:hover {
     margin-left: 40;
     margin-right: 40;
 }
+
+.mainQuote {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20;
+}

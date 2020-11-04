@@ -6,6 +6,9 @@ import Compatibility from './Compatibility.js';
 import Game from './Game.js';
 import { u } from './lib.js';
 
+const cleanPath = path =>
+  new RegExp('^' + path.replace(/\//g, '\\/').replace(/:\w+/g, '(.+)') + '$');
+
 const getParams = match => {
   const values = match.result.slice(1);
   const keys = Array.from(match.route.path.matchAll(/:(\w+)/g)).map(result => result[1]);
@@ -20,7 +23,7 @@ const getParams = match => {
   );
 };
 
-const navigateTo = url => {
+const pushTo = url => {
   history.pushState(null, null, url);
   router();
 };
@@ -38,7 +41,7 @@ const router = async () => {
   const potentialMatches = routes.map(route => {
     return {
       route: route,
-      result: location.pathname.match(route.path)
+      result: location.pathname.match(cleanPath(route.path))
     };
   });
 
@@ -63,7 +66,7 @@ document.addEventListener('DOMContentLoaded', () => {
   document.body.addEventListener('click', e => {
     if (e.target.matches('[data-link]')) {
       e.preventDefault();
-      navigateTo(e.target.href);
+      pushTo(e.target.href);
     }
   });
   router();
