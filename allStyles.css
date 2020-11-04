@@ -1,11 +1,11 @@
 .zoomable {
-    margin-top: 20px;
+    /* margin-top: 20px;
     margin-bottom: 20px;
-    margin-right: 15px;
+    margin-right: 20px; */
+    padding: 10px;
     transition: transform .2s;
     display: inline-block;
-    width: 90px;
-    height: 90px;
+    width: 6%;
 }
 
 .zoomable:hover {
@@ -37,12 +37,27 @@ li a:hover {
 }
 
 #navigationBar {
-    margin-left: 40;
-    margin-right: 40;
+    margin: auto;
+    width: 100%;
+}
+
+#mainContainer {
+    margin: auto;
+    width: 95%;
+}
+
+#headerSigns {
+    margin: auto;
+    width: 90%;
 }
 
 .mainQuote {
     color: white;
     font-family: 'Times New Roman', Times, serif;
     font-size: 20;
+    text-align: center;
+}
+
+.body {
+    background-color:rgb(255,219,255, 03);
 }

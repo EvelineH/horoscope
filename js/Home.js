@@ -1,6 +1,5 @@
  
 import AbstractView from './AbstractView.js';
-import { u } from './lib.js';
 
 export default class extends AbstractView {
   constructor(params) {
@@ -10,60 +9,60 @@ export default class extends AbstractView {
 
   async getHtml() {
     return `
-<div id="mainContainer" style="margin-left: 25px; margin-right: 25px;">
-    <div id="headerSigns" style="margin-left: 50px; margin-right: 50px;">
-        <div class="zoomable">
-            <img src="/horoscope/assets/sign-aries.jpg" width=75px height=75px></img>
+<div id="mainContainer">
+    <div id="headerSigns">
+        <div class="zoomable" id="aries">
+            <img src="/horoscope/assets/sign-aries.jpg"></img>
         </div>
 
-        <div class="zoomable">
-            <img src="/horoscope/assets/sign-taurus.jpg" width=75px height=75px></img>
+        <div class="zoomable" id="taurus">
+            <img src="/horoscope/assets/sign-taurus.jpg"></img>
         </div>
 
-        <div class="zoomable">
-            <img src="/horoscope/assets/sign-gemini.jpg " width=75px height=75px></img>
+        <div class="zoomable" id="gemini">
+            <img src="/horoscope/assets/sign-gemini.jpg"></img>
         </div> 
 
-        <div class="zoomable">
-            <img src="/horoscope/assets/sign-cancer.jpg" width=75px height=75px></img>
+        <div class="zoomable" id="cancer">
+            <img src="/horoscope/assets/sign-cancer.jpg"></img>
         </div>
 
-        <div class="zoomable">
-            <img src="/horoscope/assets/sign-leo.jpg" width=75px height=75px></img>
+        <div class="zoomable" id="leo">
+            <img src="/horoscope/assets/sign-leo.jpg"></img>
         </div>
 
-        <div class="zoomable">
-            <img src="/horoscope/assets/sign-virgo.jpg" width=75px height=75px></img>
+        <div class="zoomable" id="virgo">
+            <img src="/horoscope/assets/sign-virgo.jpg"></img>
         </div>
 
-        <div class="zoomable">
-            <img src="/horoscope/assets/sign-libra.jpg" width=75px height=75px></img>
+        <div class="zoomable" id="libra">
+            <img src="/horoscope/assets/sign-libra.jpg"></img>
         </div>
 
-        <div class="zoomable">
-            <img src="/horoscope/assets/sign-scorpio.jpg" width=75px height=75px></img>
+        <div class="zoomable" id="scorpio">
+            <img src="/horoscope/assets/sign-scorpio.jpg"></img>
         </div>
 
-        <div class="zoomable">
-            <img src="/horoscope/assets/sign-sagittarius.jpg" width=75px height=75px></img>
+        <div class="zoomable" id="sagittarius">
+            <img src="/horoscope/assets/sign-sagittarius.jpg"></img>
         </div>
 
-        <div class="zoomable">
-            <img src="/horoscope/assets/sign-capricorn.jpg" width=75px height=75px></img>
+        <div class="zoomable" id="capricorn">
+            <img src="/horoscope/assets/sign-capricorn.jpg"></img>
         </div>
 
-        <div class="zoomable">
-            <img src="/horoscope/assets/sign-aquarius.jpg" width=75px height=75px></img>
+        <div class="zoomable" id="aquarius">
+            <img src="/horoscope/assets/sign-aquarius.jpg"></img>
         </div>
 
-        <div class="zoomable">
-            <img src="/horoscope/assets/sign-pisces.jpg" width=75px height=75px></img>
+        <div class="zoomable" id="pisces">
+            <img src="/horoscope/assets/sign-pisces.jpg"></img>
         </div>
 
     </div>
 
     <div id="quote" class="mainQuote">
-        <h2 style="margin-left: 440px; margin-top: 20px; margin-bottom: 60px;">Astrology is like gravity. You don't have to believe in it for it to be working in your life.</h2>
+        <h2>Astrology is like gravity. You don't have to believe in it for it to be working in your life.</h2>
     </div>
 
     
