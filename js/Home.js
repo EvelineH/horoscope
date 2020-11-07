@@ -10,6 +10,7 @@ export default class extends AbstractView {
   async fetchDaily() {
     return new Promise(function(resolve, reject) {
         fetch('/horoscope/back/daily-horoscope.json')
+        // fetch('../back/daily-horoscope.json')
         .then(response => response.json())
         .then(dailyData => {
             dailyData = dailyData.daily
@@ -80,14 +81,15 @@ export default class extends AbstractView {
 
     
     <nav id="navigationBar" class="navigationBar">
-        <ul>
-            <li><a href="/horoscope/" class="nav__link" data-link>Home</a></li>
-            <li><a href="/horoscope/general" class="nav__link" data-link>General</a></li>
-            <li><a href="/horoscope/celebrities" class="nav__link" data-link>Celebrities</a></li>
-            <li><a href="/horoscope/jobs" class="nav__link" data-link>Jobs</a></li>
-            <li><a href="/horoscope/compatibility" class="nav__link" data-link>Love Compatibility</a></li>
-            <li><a href="/horoscope/game" class="nav__link" data-link>Guess Who ?</a></li>
-        </ul>
+        <a href="/horoscope/" class="nav__link" data-link>Home</a>
+        <a href="/horoscope/general" class="nav__link" data-link>General</a>
+        <a href="/horoscope/celebrities" class="nav__link" data-link>Celebrities</a>
+        <a href="/horoscope/jobs" class="nav__link" data-link>Jobs</a>
+        <a href="/horoscope/compatibility" class="nav__link" data-link>Love Compatibility</a>
+        <a href="/horoscope/game" class="nav__link" data-link>Guess Who ?</a>
+        <a href="javascript:void(0);" class="icon" onclick="navFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
     </nav>
 
     <p class="white-label-30"><b>Daily Horoscopes</b></p>
