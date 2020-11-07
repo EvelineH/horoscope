@@ -7,7 +7,20 @@ export default class extends AbstractView {
     this.setTitle('Home');
   }
 
+  async fetchDaily() {
+    return new Promise(function(resolve, reject) {
+        fetch('/horoscope/back/daily-horoscope.json')
+        .then(response => response.json())
+        .then(dailyData => {
+            dailyData = dailyData.daily
+            resolve(dailyData);
+        })
+    })
+  }
+
+
   async getHtml() {
+    var dailyData = await this.fetchDaily()
     return `
 <div id="mainContainer">
     <div id="headerSigns">
@@ -62,7 +75,7 @@ export default class extends AbstractView {
     </div>
 
     <div id="quote" class="mainQuote">
-        <h2>Astrology is like gravity. You don't have to believe in it for it to be working in your life.</h2>
+        <h2>Astrology is like gravity. You don't have to believe in it for it to be working in your life</h2>
     </div>
 
     
@@ -77,55 +90,67 @@ export default class extends AbstractView {
         </ul>
     </nav>
 
-    <p>Daily Horoscopes</p>
+    <p class="white-label-30"><b>Daily Horoscopes</b></p>
     <div class="grid-container">
         <div class="grid-item">
-            <p>Aries</p>
-            <p>Mar 21 - Apr 19</p>
+            <p class="white-label-20">Aries</p>
+            <p class="white-label-20">Mar 21 - Apr 19</p>
+            <p class="white-label-17">${dailyData[0].prediction}</p>
         </div>
         <div class="grid-item">
-            <p>Taurus</p>
-            <p>Apr 20 - May 20</p>
+            <p class="white-label-20">Taurus</p>
+            <p class="white-label-20">Apr 20 - May 20</p>
+            <p class="white-label-17">${dailyData[1].prediction}</p>
         </div>
         <div class="grid-item">
-            <p>Gemini</p>
-            <p>May 21 - Jun 20</p>
+            <p class="white-label-20">Gemini</p>
+            <p class="white-label-20">May 21 - Jun 20</p>
+            <p class="white-label-17">${dailyData[2].prediction}</p>
         </div>  
         <div class="grid-item">
-            <p>Cancer</p>
-            <p>Jun 21 - Jul 22</p>
+            <p class="white-label-20">Cancer</p>
+            <p class="white-label-20">Jun 21 - Jul 22</p>
+            <p class="white-label-17">${dailyData[3].prediction}</p>
         </div>
         <div class="grid-item">
-            <p>Leo</p>
-            <p>Jul 23 - Aug 22</p>
+            <p class="white-label-20">Leo</p>
+            <p class="white-label-20">Jul 23 - Aug 22</p>
+            <p class="white-label-17">${dailyData[4].prediction}</p>
         </div>
         <div class="grid-item">
-            <p>Virgo</p>
-            <p>Aug 23 - Sep 22</p>
+            <p class="white-label-20">Virgo</p>
+            <p class="white-label-20">Aug 23 - Sep 22</p>
+            <p class="white-label-17">${dailyData[5].prediction}</p>
         </div>  
         <div class="grid-item">
-            <p>Libra</p>
-            <p>Sep 23 - Oct 22</p>
+            <p class="white-label-20">Libra</p>
+            <p class="white-label-20">Sep 23 - Oct 22</p>
+            <p class="white-label-17">${dailyData[6].prediction}</p>
         </div>
         <div class="grid-item">
-            <p>Scorpio</p>
-            <p>Oct 23 - Nov 21</p>
+            <p class="white-label-20">Scorpio</p>
+            <p class="white-label-20">Oct 23 - Nov 21</p>
+            <p class="white-label-17">${dailyData[7].prediction}</p>
         </div>
         <div class="grid-item">
-            <p>Sagittarius</p>
-            <p>Nov 22 - Dec 21</p>
+            <p class="white-label-20">Sagittarius</p>
+            <p class="white-label-20">Nov 22 - Dec 21</p>
+            <p class="white-label-17">${dailyData[8].prediction}</p>
         </div>
         <div class="grid-item">
-            <p>Capricorn</p>
-            <p>Dec 22 - Jan 19</p>
+            <p class="white-label-20">Capricorn</p>
+            <p class="white-label-20">Dec 22 - Jan 19</p>
+            <p class="white-label-17">${dailyData[9].prediction}</p>
         </div>
         <div class="grid-item">
-            <p>Aquarius</p>
-            <p>Jan 20 - Feb 18</p>
+            <p class="white-label-20">Aquarius</p>
+            <p class="white-label-20">Jan 20 - Feb 18</p>
+            <p class="white-label-17">${dailyData[10].prediction}</p>
         </div>
         <div class="grid-item">
-            <p>Pisces</p>
-            <p>Feb 19 - March 20</p>
+            <p class="white-label-20">Pisces</p>
+            <p class="white-label-20">Feb 19 - March 20</p>
+            <p class="white-label-17">${dailyData[11].prediction}</p>
         </div>  
     </div>
 

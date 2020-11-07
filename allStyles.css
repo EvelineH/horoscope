@@ -55,9 +55,25 @@ li a:hover {
     text-align: center;
     margin: auto;
     width: 90%;
+    padding: 20px;
 }
 
-.p {
+.white-label-20 {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20;
+    text-align: center;
+}
+
+.white-label-30 {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30;
+    text-align: center;
+    padding: 20px;
+}
+
+.white-label-17 {
     color: white;
     font-family: 'Times New Roman', Times, serif;
     font-size: 17;
@@ -78,5 +94,6 @@ li a:hover {
     height: 80%;
     width: 80%;
     text-align: center;
-    border: 1px solid #dca9f0;;
+    border: 1px solid #dca9f0;
+    background-color: rgba(216, 191, 216, 0.849);
 }
