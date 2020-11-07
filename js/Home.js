@@ -9,8 +9,8 @@ export default class extends AbstractView {
 
   async fetchDaily() {
     return new Promise(function(resolve, reject) {
-        fetch('/horoscope/back/daily-horoscope.json')
-        // fetch('../back/daily-horoscope.json')
+        // fetch('/horoscope/back/daily-horoscope.json')
+        fetch('../back/daily-horoscope.json')
         .then(response => response.json())
         .then(dailyData => {
             dailyData = dailyData.daily
@@ -82,16 +82,16 @@ export default class extends AbstractView {
     
     <nav id="navigationBar" class="navigationBar">
         <a href="/horoscope/" class="nav__link" data-link>
-            <img src="/horoscope/assets/icon-home.jpg" width=13px height=13px style="padding:3px">Home</a>
+            Home<img src="/horoscope/assets/icon-home.jpg" width=13px height=13px style="padding:3px"></a>
         <a href="/horoscope/general" class="nav__link" data-link>
-            <img src="/horoscope/assets/icon-general.jpg" width=13px height=13px style="padding:3px">General</a>
+            General<img src="/horoscope/assets/icon-general.jpg" width=13px height=13px style="padding:3px"></a>
         <a href="/horoscope/celebrities" class="nav__link" data-link>
-            <img src="/horoscope/assets/icon-celebrities.jpg"width=13px height=13px style="padding:3px">Celebrities</a>
+            Celebrities<img src="/horoscope/assets/icon-celebrities.jpg"width=13px height=13px style="padding:3px"></a>
         <a href="/horoscope/jobs" class="nav__link" data-link>Jobs</a>
         <a href="/horoscope/compatibility" class="nav__link" data-link>
-            <img src="/horoscope/assets/icon-compatibility.jpg" width=13px height=13px style="padding:3px">Love Compatibility</a>
+            Love Compatibility<img src="/horoscope/assets/icon-compatibility.jpg" width=13px height=13px style="padding:3px"></a>
         <a href="/horoscope/game" class="nav__link" data-link>
-            <img src="/horoscope/assets/icon-game.jpg" width=13px height=13px style="padding:3px">Guess Sign</a>
+            Guess Sign<img src="/horoscope/assets/icon-game.jpg" width=13px height=13px style="padding:3px"></a>
         <a href="javascript:void(0);" class="icon" onclick="navFunction()">
             <i class="fa fa-bars"></i>
         </a>
