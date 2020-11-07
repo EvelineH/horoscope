@@ -81,12 +81,17 @@ export default class extends AbstractView {
 
     
     <nav id="navigationBar" class="navigationBar">
-        <a href="/horoscope/" class="nav__link" data-link><img src="/horoscope/assets/icon-home.jpg">Home</a>
-        <a href="/horoscope/general" class="nav__link" data-link><img src="/horoscope/assets/icon-general.jpg">General</a>
-        <a href="/horoscope/celebrities" class="nav__link" data-link><img src="/horoscope/assets/icon-celebrities.jpg">Celebrities</a>
+        <a href="/horoscope/" class="nav__link" data-link>
+            <img src="/horoscope/assets/icon-home.jpg" width=13px height=13px style="padding:3px">Home</a>
+        <a href="/horoscope/general" class="nav__link" data-link>
+            <img src="/horoscope/assets/icon-general.jpg" width=13px height=13px style="padding:3px">General</a>
+        <a href="/horoscope/celebrities" class="nav__link" data-link>
+            <img src="/horoscope/assets/icon-celebrities.jpg"width=13px height=13px style="padding:3px">Celebrities</a>
         <a href="/horoscope/jobs" class="nav__link" data-link>Jobs</a>
-        <a href="/horoscope/compatibility" class="nav__link" data-link><img src="/horoscope/assets/icon-compatibility.jpg">Love Compatibility</a>
-        <a href="/horoscope/game" class="nav__link" data-link><img src="/horoscope/assets/icon-game.jpg">Guess Sign</a>
+        <a href="/horoscope/compatibility" class="nav__link" data-link>
+            <img src="/horoscope/assets/icon-compatibility.jpg" width=13px height=13px style="padding:3px">Love Compatibility</a>
+        <a href="/horoscope/game" class="nav__link" data-link>
+            <img src="/horoscope/assets/icon-game.jpg" width=13px height=13px style="padding:3px">Guess Sign</a>
         <a href="javascript:void(0);" class="icon" onclick="navFunction()">
             <i class="fa fa-bars"></i>
         </a>
