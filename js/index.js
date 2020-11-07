@@ -71,12 +71,3 @@ document.addEventListener('DOMContentLoaded', () => {
   });
   router();
 });
-
-function navFunction() {
-  var x = document.getElementById("navigationBar");
-  if (x.className === "navigationBar") {
-      x.className += " responsive";
-  } else {
-      x.className = "navigationBar";
-  }
-}
