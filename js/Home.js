@@ -9,8 +9,8 @@ export default class extends AbstractView {
 
   async fetchDaily() {
     return new Promise(function(resolve, reject) {
-        // fetch('/horoscope/back/daily-horoscope.json')
-        fetch('../back/daily-horoscope.json')
+        fetch('/horoscope/back/daily-horoscope.json')
+        // fetch('../back/daily-horoscope.json')
         .then(response => response.json())
         .then(dailyData => {
             dailyData = dailyData.daily
