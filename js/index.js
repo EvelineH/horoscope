@@ -57,7 +57,7 @@ const router = async () => {
       ]
     };
   }
-
+  console.log(match, "match")
   const view = new match.route.view(getParams(match));
   document.querySelector('#app').innerHTML = await view.getHtml();
 };
