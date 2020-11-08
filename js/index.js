@@ -4,6 +4,7 @@ import Celebrities from './Celebrities.js';
 import Jobs from './Jobs.js';
 import Compatibility from './Compatibility.js';
 import Game from './Game.js';
+import SignView from './SignView.js';
 import { u } from './lib.js';
 
 const cleanPath = path =>
@@ -35,7 +36,8 @@ const router = async () => {
     { path: u('/celebrities'), view: Celebrities },
     { path: u('/jobs'), view: Jobs },
     { path: u('/compatibility'), view: Compatibility },
-    { path: u('/game'), view: Game }
+    { path: u('/game'), view: Game },
+    { path: u('/sign/:id'), view: SignView }
   ];
 
   const potentialMatches = routes.map(route => {

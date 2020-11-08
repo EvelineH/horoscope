@@ -9,30 +9,6 @@
     transform: scale(1.5);
 }
 
-/* ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #dca9f0;
-  }
-
-li {
-    float: left;
-}
-
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 20px 20px;
-    text-decoration: none;
-}
-
-li a:hover {
-    background-color: rgb(217, 142, 247);
-} */
-
 .navigationBar {
   overflow: hidden;
   background-color: #dca9f0;
