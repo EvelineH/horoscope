@@ -36,12 +36,31 @@ export default class extends AbstractView {
           </a>
         </nav>
 
-        <div class="signCard">
-          <img src="/horoscope/assets/daily-${sign.sign}.jpg">
-          <div class="signCardcontainer">
-            <h4><b>John Doe</b></h4> 
-            <p>Architect & Engineer</p> 
+        <div style="width=60%; margin:auto">
+          <div class="signCard" style="overflow:hidden">
+            <div style="margin:0px 52px 0px 52px">
+              <img src="/horoscope/assets/daily-${sign.sign}.jpg" width=96px height=96px>
+            </div>
+            <div class="signCardcontainer">
+              <p class="white-label-20"><b>${sign.sign}</b></p> 
+              <p class="white-label-17">Element: ${sign.element}</p> 
+              <p class="white-label-17">Ruling Planet: ${sign.planet}</p>
+              <p class="white-label-17">Ruling House: ${sign.house}</p> 
+              <p class="white-label-17">Quality: ${sign.quality}</p> 
+            </div>
           </div>
+          
+          <div class="textContainer" style="overflow:hidden; width:80%; margin-top:30px">
+            <div>
+              <p class="white-label-20-j"><b>Sign Facts</b></p>
+              <p class="white-label-18">${sign.overview}</p>
+            </div>
+          </div>
+
+        </div>
+        <div class="footer">
+          <p><b>Motto of Sign</p>
+          <p><i>"${sign.motto}"</i>
         </div>
     </div>`;
   }
