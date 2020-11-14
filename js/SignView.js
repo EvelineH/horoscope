@@ -10,7 +10,7 @@ export default class extends AbstractView {
   async fetchSign() {
     return new Promise(function(resolve, reject) {
         fetch('/horoscope/back/single-sign.json')
-        // fetch('../back/single-sign.json')
+        // fetch('/back/single-sign.json')
         .then(response => response.json())
         .then(data => {
             data = data.signs
@@ -20,7 +20,8 @@ export default class extends AbstractView {
   }
 
   async getHtml() {
-    var sign = await this.fetchSign()
+    var signs = await this.fetchSign()
+    var sign = signs[this.id]
     return `
     <div id="mainContainer">
         <nav id="navigationBar" class="navigationBar">
@@ -34,6 +35,14 @@ export default class extends AbstractView {
               <i class="fa fa-bars"></i>
           </a>
         </nav>
+
+        <div class="signCard">
+          <img src="/horoscope/assets/daily-${sign.sign}.jpg">
+          <div class="signCardcontainer">
+            <h4><b>John Doe</b></h4> 
+            <p>Architect & Engineer</p> 
+          </div>
+        </div>
     </div>`;
   }
 }
