@@ -27,62 +27,62 @@ export default class extends AbstractView {
     <div id="headerSigns">
         <div class="zoomable" id="aries">
             <a href="/horoscope/sign/0" data-link>
-            <img src="/horoscope/assets/sign-aries.jpg" width=75px height=75px></img>
+            <img src="/horoscope/assets/sign-aries.jpg" width=75px height=75px></img></a>
         </div>
 
         <div class="zoomable" id="taurus">
         <a href="/horoscope/sign/1" data-link>
-            <img src="/horoscope/assets/sign-taurus.jpg" width=75px height=75px></img>
+            <img src="/horoscope/assets/sign-taurus.jpg" width=75px height=75px></img></a>
         </div>
 
         <div class="zoomable" id="gemini">
         <a href="/horoscope/sign/2" data-link>
-            <img src="/horoscope/assets/sign-gemini.jpg" width=75px height=75px></img>
+            <img src="/horoscope/assets/sign-gemini.jpg" width=75px height=75px></img></a>
         </div> 
 
         <div class="zoomable" id="cancer">
             <a href="/horoscope/sign/3" data-link>
-            <img src="/horoscope/assets/sign-cancer.jpg" width=75px height=75px></img>
+            <img src="/horoscope/assets/sign-cancer.jpg" width=75px height=75px></img></a>
         </div>
 
         <div class="zoomable" id="leo">
             <a href="/horoscope/sign/4" data-link>
-            <img src="/horoscope/assets/sign-leo.jpg" width=75px height=75px></img>
+            <img src="/horoscope/assets/sign-leo.jpg" width=75px height=75px></img></a>
         </div>
 
         <div class="zoomable" id="virgo">
             <a href="/horoscope/sign/5" data-link>
-            <img src="/horoscope/assets/sign-virgo.jpg" width=75px height=75px></img>
+            <img src="/horoscope/assets/sign-virgo.jpg" width=75px height=75px></img></a>
         </div>
 
         <div class="zoomable" id="libra">
             <a href="/horoscope/sign/6" data-link>
-            <img src="/horoscope/assets/sign-libra.jpg" width=75px height=75px></img>
+            <img src="/horoscope/assets/sign-libra.jpg" width=75px height=75px></img></a>
         </div>
 
         <div class="zoomable" id="scorpio">
             <a href="/horoscope/sign/7" data-link>
-            <img src="/horoscope/assets/sign-scorpio.jpg" width=75px height=75px></img>
+            <img src="/horoscope/assets/sign-scorpio.jpg" width=75px height=75px></img></a>
         </div>
 
         <div class="zoomable" id="sagittarius">
             <a href="/horoscope/sign/8" data-link>
-            <img src="/horoscope/assets/sign-sagittarius.jpg" width=75px height=75px></img>
+            <img src="/horoscope/assets/sign-sagittarius.jpg" width=75px height=75px></img></a>
         </div>
 
         <div class="zoomable" id="capricorn">
             <a href="/horoscope/sign/9" data-link>
-            <img src="/horoscope/assets/sign-capricorn.jpg" width=75px height=75px></img>
+            <img src="/horoscope/assets/sign-capricorn.jpg" width=75px height=75px></img></a>
         </div>
 
         <div class="zoomable" id="aquarius">
             <a href="/horoscope/sign/10" data-link>
-            <img src="/horoscope/assets/sign-aquarius.jpg" width=75px height=75px></img>
+            <img src="/horoscope/assets/sign-aquarius.jpg" width=75px height=75px></img></a>
         </div>
 
         <div class="zoomable" id="pisces">
             <a href="/horoscope/sign/11" data-link>
-            <img src="/horoscope/assets/sign-pisces.jpg" width=75px height=75px></img>
+            <img src="/horoscope/assets/sign-pisces.jpg" width=75px height=75px></img></a>
         </div>
 
     </div>
@@ -96,7 +96,6 @@ export default class extends AbstractView {
         <a href="/horoscope/" class="nav__link" data-link>Home</a>
         <a href="/horoscope/general" class="nav__link" data-link>General</a>
         <a href="/horoscope/celebrities" class="nav__link" data-link>Celebrities</a>
-        <a href="/horoscope/jobs" class="nav__link" data-link>Jobs</a>
         <a href="/horoscope/compatibility" class="nav__link" data-link>Love Compatibility</a>
         <a href="/horoscope/game" class="nav__link" data-link>Guess Sign</a>
         <a href="javascript:void(0);" class="icon" onclick="navFunction()">
