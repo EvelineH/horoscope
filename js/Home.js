@@ -26,7 +26,7 @@ export default class extends AbstractView {
 <div id="mainContainer">
     <div id="headerSigns">
         <div class="zoomable" id="aries">
-            <a href="/horoscope/sign/0" data-link>
+            <a href="/horoscope/sign/0" class="nav__link" data-link>
             <img src="/horoscope/assets/sign-aries.jpg" width=75px height=75px></img></a>
         </div>
 
