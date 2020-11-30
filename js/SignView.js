@@ -50,12 +50,12 @@ export default class extends AbstractView {
           </div>
           
           <div class="textContainer" style="overflow:hidden; width:80%; margin-top:30px">
-            <div>
+            <div style="padding: 0px 10px 10px 10px">
               <p class="white-label-20-j"><b>Sign Facts</b></p>
               <p class="white-label-18">${sign.overview}</p>
             </div>
 
-            <div>
+            <div style="padding: 0px 10px 10px 10px">
               <p class="white-label-20-j"><b>Celebrities</b></p>
               <p class="white-label-18">${sign.celebrities}</p>
               <p class="white-label-18">Click on link to see more <a href="https://www.onthisday.com/people/star-signs.php">${sign.sign} stars</a></p>
