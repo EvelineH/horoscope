@@ -179,13 +179,17 @@ footer p {
   padding-left: 20px;
 }
 
-a {
+.zoomable a {
   text-align: center;
   color: white;
-  font-size: 25;
-  padding-top: 20px;
+  font-size: 18px;
+  width: 100%;
+  margin: auto;
 }
 
-a:hover {
+.zoomable a:hover {
   color:#dca9f0c9;
+  font-size: 18px;
+  width: 100%;
+  margin: auto;
 }
