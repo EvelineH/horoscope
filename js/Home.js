@@ -34,43 +34,43 @@ export default class extends AbstractView {
         </div>
 
         <div class="zoomable" id="gemini">
-            <img src="/horoscope/assets/sign-gemini.jpg" width=75px height=75px></img>
+            <img src="/horoscope/assets/sign-gemini.jpg" width=75px height=75px><a href="/horoscope/sign/2" data-link>Gemini</a></img>
         </div> 
 
         <div class="zoomable" id="cancer">
-            <img src="/horoscope/assets/sign-cancer.jpg" width=75px height=75px></img>
+            <img src="/horoscope/assets/sign-cancer.jpg" width=75px height=75px><a href="/horoscope/sign/3" data-link>Cancer</a></img>
         </div>
 
         <div class="zoomable" id="leo">
-            <img src="/horoscope/assets/sign-leo.jpg" width=75px height=75px></img>
+            <img src="/horoscope/assets/sign-leo.jpg" width=75px height=75px><a href="/horoscope/sign/4" data-link>Leo</a></img>
         </div>
 
         <div class="zoomable" id="virgo">
-            <img src="/horoscope/assets/sign-virgo.jpg" width=75px height=75px></img>
+            <img src="/horoscope/assets/sign-virgo.jpg" width=75px height=75px><a href="/horoscope/sign/5" data-link>Virgo</a></img>
         </div>
 
         <div class="zoomable" id="libra">
-            <img src="/horoscope/assets/sign-libra.jpg" width=75px height=75px></img>
+            <img src="/horoscope/assets/sign-libra.jpg" width=75px height=75px><a href="/horoscope/sign/6" data-link>Libra</a></img>
         </div>
 
         <div class="zoomable" id="scorpio">
-            <img src="/horoscope/assets/sign-scorpio.jpg" width=75px height=75px></img>
+            <img src="/horoscope/assets/sign-scorpio.jpg" width=75px height=75px><a href="/horoscope/sign/7" data-link>Scorpio</a></img>
         </div>
 
         <div class="zoomable" id="sagittarius">
-            <img src="/horoscope/assets/sign-sagittarius.jpg" width=75px height=75px></img>
+            <img src="/horoscope/assets/sign-sagittarius.jpg" width=75px height=75px><a href="/horoscope/sign/8" data-link>Sagittarius</a></img>
         </div>
 
         <div class="zoomable" id="capricorn">
-            <img src="/horoscope/assets/sign-capricorn.jpg" width=75px height=75px></img>
+            <img src="/horoscope/assets/sign-capricorn.jpg" width=75px height=75px><a href="/horoscope/sign/9" data-link>Capricorn</a></img>
         </div>
 
         <div class="zoomable" id="aquarius">
-            <img src="/horoscope/assets/sign-aquarius.jpg" width=75px height=75px></img>
+            <img src="/horoscope/assets/sign-aquarius.jpg" width=75px height=75px><a href="/horoscope/sign/10" data-link>Aquarius</a></img>
         </div>
 
         <div class="zoomable" id="pisces">
-            <img src="/horoscope/assets/sign-pisces.jpg" width=75px height=75px></img>
+            <img src="/horoscope/assets/sign-pisces.jpg" width=75px height=75px><a href="/horoscope/sign/11" data-link>Pisces</a></img>
         </div>
 
     </div>

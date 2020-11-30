@@ -179,13 +179,13 @@ footer p {
   padding-left: 20px;
 }
 
-.zoomable a {
+a {
   text-align: center;
   color: white;
   font-size: 25;
   padding-top: 20px;
 }
 
-.zoomable a:hover {
+a:hover {
   color:#dca9f0c9;
 }
