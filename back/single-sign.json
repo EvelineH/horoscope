@@ -8,7 +8,8 @@
         "element": "Fire",
         "house": "First",
         "quality": "Cardinal",
-        "planet": "Mars"
+        "planet": "Mars",
+        "celebrities": "Big Sean, Marlon Brando, Charlie Chaplin, Joan Crawford, Leonardo da Vinci, Robert Downey Jr., James Franco, Robert Frost, Lady Gaga, Harry Houdini, Thomas Jefferson, Keira Knightley, Vincent van Gogh, Emma Watson, Reese Witherspoon"
       },
       {
         "sign":"taurus",
@@ -18,7 +19,8 @@
         "element": "Earth",
         "house": "Second",
         "quality": "Fixed",
-        "planet": "Venus"
+        "planet": "Venus",
+        "celebrities": "Adele, Dwayne The Rock Johnson, Audrey Hepburn, Chris Brown, Cam Newton"
       },
       {
         "sign":"gemini",
@@ -28,7 +30,8 @@
         "element": "Air",
         "house": "Third",
         "quality": "Mutable",
-        "planet": "Mercury"  
+        "planet": "Mercury" ,
+        "celebrities": "Kendrick Lamar, Azealia Banks, Iggy Azalea, Angelina Jolie, Natalie Portman"
       },
       {
         "sign":"cancer",
@@ -38,7 +41,8 @@
         "element": "Water",
         "house": "Fourth",
         "quality": "Cardinal",
-        "planet": "Moon"
+        "planet": "Moon",
+        "celebrities": "Selena Gomez, Ariana Grande, King Bach, Lionel Messi, Luke Bryan, Kevin Hart"
       },
       {
         "sign":"leo",
@@ -48,7 +52,8 @@
         "element": "Fire",
         "house": "Fifth",
         "quality": "Fixed",
-        "planet": "Sun"
+        "planet": "Sun",
+        "celebrities": "Barack Obama, Leonardo DiCaprio, Mila Kunis, Daniel Radcliffe, J.K. Rowling, Chris Hemsworth, Jennifer Lawrence, Madonna"
       },
       {
         "sign":"virgo",
@@ -58,7 +63,8 @@
         "element": "Earth",
         "house": "Sixth",
         "quality": "Mutable",
-        "planet": "Mercury"
+        "planet": "Mercury",
+        "celebrities": "Blake Lively, Cameron Diaz, Beyonce, Salma Hayek, Chris Pine, Jennifer Judson, Prince Harry, Nas, Jason Derulo, Mase, Zendaya"
       },
       {
         "sign":"libra",
@@ -68,7 +74,8 @@
         "element": "Air",
         "house": "Seventh",
         "quality": "Cardinal",
-        "planet": "Venus"
+        "planet": "Venus",
+        "celebrities": "Matt Damon, Marion Cotillard, Hugh Jackman, Gwyneth Paltrow, Kim Kardashian, Bruno Mars, Lil Wayne, Bella Thorne, Nick Cannon, Halsey, Will Smith, Candice Swanepoel, Kate Winslet"
       },
       {
         "sign":"scorpio",
@@ -78,7 +85,8 @@
         "element": "Water",
         "house": "Eighth",
         "quality": "Fixed",
-        "planet": "Pluto/Mars"
+        "planet": "Pluto/Mars",
+        "celebrities": "Ciara, Julia Roberts, Gabrielle Union, Matthew McConaughey, Drake, Ryan Reynolds, Katy Perry, Kris Jenner, Anne Hathaway, Ryan Gosling, Owen Wilson"
       },
       {
         "sign":"sagittarius",
@@ -88,7 +96,8 @@
         "element": "Fire",
         "house": "Ninth",
         "quality": "Mutable",
-        "planet": "Jupiter"
+        "planet": "Jupiter",
+        "celebrities": "Nicki Minaj, Taylor Swift, Miley Cyrus, Brad Pitt, Rita Ora, Chrissy Teigen, Jay-Z, Vanessa Hudgens"
       },
       {
         "sign":"capricorn",
@@ -98,7 +107,8 @@
         "element": "Earth",
         "house": "Tenth",
         "quality": "Cardinal",
-        "planet": "Saturn"
+        "planet": "Saturn",
+        "celebrities": "John Legend, Bradley Cooper, Kate Middleton, Liam Hemsworth, Michelle Obama, Ellen Degeneres"
       },
       {
         "sign":"aquarius",
@@ -108,7 +118,8 @@
         "element": "Air",
         "house": "Eleventh",
         "quality": "Fixed",
-        "planet": "Uranus"
+        "planet": "Uranus",
+        "celebrities": "Ed Sheeran, Harry Styles, The Weeknd, Shakira, Oprah Winfrey, Jennifer Aniston, Chloe Moretz, Taylor Lautner"
       },
       {
         "sign":"pisces",
@@ -118,7 +129,8 @@
         "element": "Water",
         "house": "Twelveth",
         "quality": "Mutable",
-        "planet": "Neptun"
+        "planet": "Neptun",
+        "celebrities": "George Washington, Albert Einstein, Michelangelo, Constantine The Great, Rihanna"
       }
     ]  
 }

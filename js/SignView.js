@@ -27,9 +27,8 @@ export default class extends AbstractView {
         <nav id="navigationBar" class="navigationBar">
           <a href="/horoscope/" class="nav__link" data-link>Home</a>
           <a href="/horoscope/general" class="nav__link" data-link>General</a>
-          <a href="/horoscope/celebrities" class="nav__link" data-link>Celebrities</a>
-          <a href="/horoscope/jobs" class="nav__link" data-link>Jobs</a>
           <a href="/horoscope/compatibility" class="nav__link" data-link>Love Compatibility</a>
+          <a href="/horoscope/chart" class="nav__link" data-link>Birth Chart</a>
           <a href="/horoscope/game" class="nav__link" data-link>Guess Sign</a>
           <a href="javascript:void(0);" class="icon" onclick="navFunction()">
               <i class="fa fa-bars"></i>
@@ -55,13 +54,22 @@ export default class extends AbstractView {
               <p class="white-label-20-j"><b>Sign Facts</b></p>
               <p class="white-label-18">${sign.overview}</p>
             </div>
+
+            <div>
+              <p class="white-label-20-j"><b>Celebrities</b></p>
+              <p class="white-label-18">${sign.celebrities}</p>
+              <p class="white-label-18">Click on link to see more <a href="https://www.onthisday.com/people/star-signs.php">${sign.sign} stars</a></p>
+            </div>
           </div>
 
         </div>
-        <div class="footer">
-          <p><b>Motto of Sign</p>
-          <p><i>"${sign.motto}"</i>
-        </div>
-    </div>`;
+    </div>
+    <script>
+      revealCelebrities(sign.celebrities)
+    </script>
+    <footer>
+      <p><b>Motto of Sign</p>
+      <p><i>"${sign.motto}"</i>
+    </footer>`;
   }
 }

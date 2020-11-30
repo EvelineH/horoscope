@@ -1,10 +1,9 @@
 import Home from './Home.js';
 import General from './General.js';
-import Celebrities from './Celebrities.js';
-import Jobs from './Jobs.js';
 import Compatibility from './Compatibility.js';
 import Game from './Game.js';
 import SignView from './SignView.js';
+import ChartView from './BirthChart.js';
 import { u } from './lib.js';
 
 const cleanPath = path =>
@@ -33,10 +32,9 @@ const router = async () => {
   const routes = [
     { path: u('/'), view: Home },
     { path: u('/general'), view: General },
-    { path: u('/celebrities'), view: Celebrities },
-    { path: u('/jobs'), view: Jobs },
     { path: u('/compatibility'), view: Compatibility },
     { path: u('/game'), view: Game },
+    { path: u('/chart'), view: ChartView },
     { path: u('/sign/:id'), view: SignView }
   ];
 
