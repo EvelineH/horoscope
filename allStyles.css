@@ -2,7 +2,6 @@
     padding: 10px;
     transition: transform .2s;
     display: inline-block;
-    width: 95px;
 }
 
 .zoomable:hover {
