@@ -26,11 +26,11 @@ export default class extends AbstractView {
 <div id="mainContainer">
     <div id="headerSigns">
         <div class="zoomable" id="aries">
-            <a href="/horoscope/sign/0" data-link>&nbsp;<img src="/horoscope/assets/sign-aries.jpg" width=75px height=75px></a></img>
+            <a href="/horoscope/sign/0" data-link><img src="/horoscope/assets/sign-aries.jpg" width=75px height=75px>Aries</a></img>
         </div>
 
         <div class="zoomable" id="taurus">
-            <a href="/horoscope/sign/0" data-link><img src="/horoscope/assets/sign-taurus.jpg" width=75px height=75px>&nbsp;</a></img>
+            <a href="/horoscope/sign/1" data-link><img src="/horoscope/assets/sign-taurus.jpg" width=75px height=75px>Taurus</a></img>
         </div>
 
         <div class="zoomable" id="gemini">
