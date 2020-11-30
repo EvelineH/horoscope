@@ -178,3 +178,14 @@ footer p {
   font-size: 25;
   padding-left: 20px;
 }
+
+.zoomable a {
+  text-align: center;
+  color: white;
+  font-size: 25;
+  padding-top: 20px;
+}
+
+.zoomable a:hover {
+  color:#dca9f0c9;
+}
