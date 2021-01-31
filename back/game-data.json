@@ -1,0 +1,101 @@
+{
+    "data": [
+      {
+        "sign":"Aries",
+        "id":"0",
+        "char1": "Dynamic",
+        "char2": "Lazy",
+        "actStr1": "Well Done ! Aries are really Dynamic",
+        "actStr2": "Oops . Aries aren't Lazy"
+      },
+      {
+        "sign":"Taurus",
+        "id":"1",
+        "char1": "Ordinary",
+        "char2": "Creative",
+        "actStr2": "Well Done ! Taurus are really Creative",
+        "actStr1": "Oops . Taurus aren't Ordinary"  
+      },
+      {
+        "sign":"Gemini",
+        "id":"2",
+        "char1": "Cruel",
+        "char2": "Kind",
+        "actStr2": "Well Done ! Gemini are really Kind",
+        "actStr1": "Oops . Gemini aren't Cruel"
+      },
+      {
+        "sign":"Cancer",
+        "id":"3",
+        "char1": "Intuitive",
+        "char2": "Rational",
+        "actStr1": "Well Done ! Cancer are really Intuitive",
+        "actStr2": "Oops . Cancer aren't Rational"
+      },
+      {
+        "sign":"Leo",
+        "id":"4",
+        "char1": "Lazy",
+        "char2": "Fiery",
+        "actStr2": "Well Done ! Leo are really Fiery",
+        "actStr1": "Oops . Leo aren't Lazy"
+      },
+      {
+        "sign":"Virgo",
+        "id":"5",
+        "char1": "Rude",
+        "char2": "Gentle",
+        "actStr2": "Well Done ! Virgo are really Gentle",
+        "actStr1": "Oops . Virgo aren't Rude"
+      },
+      {
+        "sign":"Libra",
+        "id":"6",
+        "char1": "Social",
+        "char2": "Shy",
+        "actStr1": "Well Done ! Libra are really Social",
+        "actStr2": "Oops . Libra aren't Shy"
+      },
+      {
+        "sign":"Scorpio",
+        "id":"7",
+        "char1": "Resourceful",
+        "char2": "Liar",
+        "actStr1": "Well Done ! Scorpio are really Resourceful",
+        "actStr2": "Oops . Scorpio aren't Liar"
+      },
+      {
+        "sign":"Sagittarius",
+        "id":"8",
+        "char1": "Pesimistic",
+        "char2": "Optimistic",
+        "actStr2": "Well Done ! Sagittarius are really Optimistic",
+        "actStr1": "Oops . Sagittarius aren't Pesimistic"
+      },
+      {
+        "sign":"Capricorn",
+        "id":"9",
+        "char1": "Funny",
+        "char2": "Serious",
+        "actStr2": "Well Done ! Capricorn are really Serious",
+        "actStr1": "Oops . Capricorn aren't Funny"
+      },
+      {
+        "sign":"Aquarius",
+        "id":"10",
+        "char1": "Deep",
+        "char2": "Shallow",
+        "actStr1": "Well Done ! Aquarius are really Deep",
+        "actStr2": "Oops . Aquarius aren't Shallow"
+      },
+      {
+        "sign":"Pisces",
+        "id":"11",
+        "char1": "Silly",
+        "char2": "Wise",
+        "actStr2": "Well Done ! Pisces are really Wise",
+        "actStr1": "Oops . Pisces aren't Silly"
+      }
+    ]  
+}
+  

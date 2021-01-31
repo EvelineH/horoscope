@@ -14,7 +14,7 @@ export default class extends AbstractView {
             <a href="/horoscope/general" class="nav__link" data-link>General</a>
             <a href="/horoscope/compatibility" class="nav__link" data-link>Love Compatibility</a>
             <a href="/horoscope/chart" class="nav__link" data-link>Birth Chart</a>
-            <a href="/horoscope/game" class="nav__link" data-link>Guess Sign</a>
+            <a href="/horoscope/game" class="nav__link" data-link>Play Game</a>
             <a href="javascript:void(0);" class="icon" onclick="navFunction()">
                 <i class="fa fa-bars"></i>
             </a>

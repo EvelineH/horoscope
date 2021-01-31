@@ -12,6 +12,18 @@
         <div id="app"></div>
         <script type="module" src="./js/index.js"></script>
         <script>
+            async function fetchGameData() {
+                return new Promise(function(resolve, reject) {
+                    fetch('/horoscope/back/game-data.json')
+                    // fetch('../back/game-data.json')
+                    .then(response => response.json())
+                    .then(gameData => {
+                        gameData = gameData.data
+                        resolve(gameData);
+                    })
+                })
+            }
+
             function navFunction() {
                 var x = document.getElementById("navigationBar");
                 if (x.className === "navigationBar") {
@@ -19,6 +31,15 @@
                 } else {
                     x.className = "navigationBar";
                 }
+            }
+
+            async function createButtons() {
+                var gameData = await this.fetchGameData()
+                var ind = document.getElementById("selectForm").value
+                document.getElementById("button1").onclick = function() {alert(gameData[ind].actStr1)};
+                document.getElementById("button2").onclick = function() {alert(gameData[ind].actStr2)};
+                document.getElementById("button1").innerHTML = gameData[ind].char1
+                document.getElementById("button2").innerHTML = gameData[ind].char2
             }
         </script>
     </body>
